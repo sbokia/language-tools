@@ -130,4 +130,7 @@ function to_latin_iso($greek_word) {
     
     return $latin_iso;
 }
+
+// Example call
+echo "The greek word σπίτι in ISO 843 transliteration is ".to_latin_iso(σπίτι);
 ?>
