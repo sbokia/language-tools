@@ -1,3 +1,5 @@
+<?php
+
 $greek_to_german_iso843 = array (
     
     "Α" => "A",
@@ -128,3 +130,4 @@ function to_latin_iso($greek_word) {
     
     return $latin_iso;
 }
+?>
